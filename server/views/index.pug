@@ -1,5 +1,91 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  main
+  #container
+  .name-container
+    h2
+      span.material-symbols-outlined
+        | auto_awesome
+      |  IN TENDENZA
+    hr
+  .slide-container.swiper
+    .slide-content
+      .card-wrapper.swiper-wrapper
+        .card.swiper-slide
+          .image-content
+            span.overlay
+            .card-image
+              a(href='#')
+                img.card-img(src='Images/magic-emperor.png' alt='Magic Emperor')
+                .name
+                  p Magic Emperor
+        .card.swiper-slide
+          .image-content
+            span.overlay
+            .card-image
+              a(href='#')
+                img.card-img(src='Images/player.jpg' alt='Magic Emperor')
+                .name
+                  p Player
+        .card.swiper-slide
+          .image-content
+            span.overlay
+            .card-image
+              a(href='#')
+                img.card-img(src='Images/mercenary-enrollment.jpg' alt='Magic Emperor')
+                .name
+                  p Mercenary Enrollment
+        .card.swiper-slide
+          .image-content
+            span.overlay
+            .card-image
+              a(href='#')
+                img.card-img(src='images/Solo-leveling.png' alt='Solo Leveling')
+                .name
+                  p Solo Leveling
+        .card.swiper-slide
+          .image-content
+            span.overlay
+            .card-image
+              img.card-img(src='Images/Tbate.png' alt='')
+            .name
+              p The Beginning After The End
+        .card.swiper-slide
+          .image-content
+            span.overlay
+            .card-image
+              a(href='#')
+                img.card-img(src='Images/Tensura1.png' alt='')
+                .name
+                  p Tensei Shitara Slime Datta Ken
+        .card.swiper-slide
+          .image-content
+            span.overlay
+            .card-image
+              a(href='#')
+                img.card-img(src='Images/one-piece.png' alt='')
+                .name
+                  p One Piece
+        .card.swiper-slide
+          .image-content
+            span.overlay
+            .card-image
+              a(href='#')
+                img.card-img(src='Images/return-disaster-hero.jpg' alt='')
+                .name
+                  p Return Of the Disatres Class-hero
+        .card.swiper-slide
+          .image-content
+            span.overlay
+            .card-image
+              a(href='#')
+                img.card-img(src='Images/mha.jpg' alt='Solo Leveling')
+                .name
+                  p My Hero Academia
+    .swiper-button-next.swiper-navBtn
+    .swiper-button-prev.swiper-navBtn
+    .swiper-pagination
+
+    
+  

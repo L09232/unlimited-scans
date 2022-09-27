@@ -1,7 +1,46 @@
-doctype html
-html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+head
+  title Unlimited Scans - Manga Scan in Italiano
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(href='css/style.css' rel='stylesheet')
+  link(rel='shortcut icon' type='image' href='Images/logo-us-site-only.png')
+  link(href='css/container.css' rel='stylesheet')
+  link(rel='stylesheet' href='css/sidebar.css')
+  link(rel='stylesheet' href='css/nav.css')
+  link(rel='stylesheet' href='css/banner.css')
+  link(rel='stylesheet' href='css/slider.css')
+  link(rel='stylesheet' href='css/warning.css')
+  link(rel='stylesheet' href='css/loader.css')
+  link(rel='stylesheet' href='css/slider.css')
+  link(rel='stylesheet' href='css/swiper-bundle.min.css')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+  script(src='https://kit.fontawesome.com/c9e6235f1b.js' crossorigin='anonymous')
+  link(rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0')
+  meta(name='description' content='Vuoi leggere manga in Italiano? Entra su Unlimitedscans.it, troverai Manga che non sono ancora stati tradotti su altri Siti.')
+header
+  nav.navbar
+    a.logo(href='https://unlimitedscans.it')
+      img(src='images/logo-pre1.png')
+    ul.nav-menu
+      .search
+        input(type='text' list='search' placeholder='Cerca su unlimitedscans.it')
+      button
+        a(href='Generi') Generi 
+      button
+        a(href='Archivio') Archivio
+    .hamburger
+      span.bar
+      span.bar
+      span.bar
+  .hidden-menu
+    .content-menu
+      button
+        a(href='Generi') Generi 
+      button
+        a(href='Archivio') Archivio
+      .search-bar
+        input(type='text' placeholder='Cerca su unlimitedscans.it')
+  .notice-box
+
+
+block content

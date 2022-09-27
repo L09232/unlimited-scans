@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Overlock SC', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #242a33;
+ }
+
+.notice-box {
+    max-width: 100%;
+    background: rgb(0,95,255);
+    background: linear-gradient(90deg, rgba(0,95,255,1) 0%, rgba(48,132,190,1) 45%, rgba(30,164,190,1) 100%);
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    height: 4px;
+}
+
+.container .material-symbols-outlined {
+    color: rgb(80, 121, 209);
+    cursor: default;
+}
+
+.side-bar .material-symbols-outlined {
+    color: rgb(80, 121, 209);
+    cursor: default;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.notice {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.notice h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.notice a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    .notice a {
+        flex-direction: column;
+    }
+}
+
+.notice .material-symbols-outlined {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.notice .fa-brands {
+    display: flex;
+    align-items: center;
+}
+
+.notice p {
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .notice  {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .nav a {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .notice  {
+        font-size: 13px;
+    }
+}
+
+.footer {
+    width: 100%;
+    background-color: #2c333e;
+    margin-top: 20px;
+}
+
+.footer-content {
+    color: rgb(80, 121, 209);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.footer-links {
+    flex-direction: column;
+    color: rgb(80, 121, 209);
+}
+
+.footer-links a {
+    color: rgb(80, 121, 209);
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-box {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .footer-box  {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .footer-content  {
+        width: 90%;
+    }
+}
+
+.fa-brands {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer-under-box {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-under-box h2 {
+    font-size: 17px;
+}
+
+.footer-under-box p {
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+.footer .fa-brands:hover {
+    color: rgb(80, 121, 209);
+}
+
+

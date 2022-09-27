@@ -1,0 +1,59 @@
+.banner {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    justify-content: space-between;
+    transition: all 0.2s ease 0s;
+    align-items: center;
+    border: 1px solid #2c333e;
+}
+
+.banner:hover {
+    border: 1px solid #3c4d68;
+}
+
+.banner a {
+    display: flex;
+    align-items: center;
+}
+
+.logo-banner p {
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.banner img {
+    width: 50px;
+    padding: 3px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.link a button {
+    background: linear-gradient(90deg, rgba(0,95,255,1) 0%, rgba(48,132,190,1) 45%, rgba(30,164,190,1) 100%);
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.link a button:hover {
+    background: linear-gradient(90deg, rgb(46, 117, 240) 0%, rgb(73, 160, 223) 45%, rgb(47, 157, 179) 100%);
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .banner  {
+        width: 100%;
+    }
+}
