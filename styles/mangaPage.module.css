@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+
+.nodb {
+    display: none;
+}
+
+.container {
+    width: 45%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.content {
+    width: 100%;
+    background-color: #2c333e;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 750px) {
+    .content {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .container  {
+        width: 100%;
+    }
+}
+
+.nameWrap {
+    display: flex;
+    width: 220px;
+    height: 300px;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.val h3 {
+    color: rgb(80, 121, 209);
+    font-family: 'Overlock SC', cursive;
+    line-height: 40px;
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+}
+
+.val{
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0c0c0cb4;
+    width: 100%;
+    padding: 5px;
+    min-height: 40px;
+    bottom: 0;
+}
+
+@media only screen and (min-width: 800px) {
+    .val  {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .nameWrap  {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .description h1  {
+        display: none;
+    }
+}
+
+.nameWrap img {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.description {
+    display: flex;
+    padding-left: 20px;
+    width: 65%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.description h1 {
+    color: rgb(80, 121, 209);
+    font-size: 26px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 780px) {
+    .description  {
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .description h1  {
+        text-align: center;
+    }
+}
+
+.descWrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    max-height: 250px;
+}
+
+@media only screen and (max-width: 900px) {
+    .descWrap {
+        flex-wrap: nowrap;
+        max-height: none;
+    }
+}
+
+.descWrap span {
+    color: rgb(80, 121, 209);
+}
+
+.descWrap p {
+    display: flex;
+    color: #6f82a0;
+}
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    width: 230px;
+}
+
+@media only screen and (max-width: 900px) {
+    .genres {
+        width: 100%;
+    }
+}
+
+.translatorInfo {
+    border: 1px solid #2c333e;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    user-select: none;
+}
+
+.translatorInfo:hover {
+    border: 1px solid #3c4d68;
+}
+
+.translatorInfo .tLogo {
+    width: 40px;
+    height: 40px;
+}
+
+.translatorInfo .tLogo img {
+    width: 100%;
+    height: 100%;
+}
+
+.translatorInfo p {
+    padding-left: 10px;
+    color: rgb(80, 121, 209);
+}
+
+.helpItems a {
+    background-color: rgb(66, 108, 197);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 0.2s ease 0s;
+}
+
+.helpItems p {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    
+}
+
+#problemHelp {
+    background-color: rgb(177, 51, 51);
+}
+
+@media only screen and (max-width: 1300px) {
+    #problemHelp  {
+        padding: 10px 65px;
+    }
+}
+
+
+#problemHelp:hover {
+    background-color: rgb(248, 63, 63);
+}
+
+.help {
+    margin: 0;
+    color: white;
+}
+
+.helpItems {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.helpItems a:hover {
+    background-color: rgb(53, 83, 148);
+}
+
+@media only screen and (max-width: 1300px) {
+    .content  {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .helpItems  {
+        justify-content: center;
+    }
+}
+
+.nodb {
+    display: none;
+}
+
+.plot h3 {
+    color: #6e94d1;
+
+}
+
+.plot p {
+    color: #6f82a0;
+}
+
+.line {
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.chapBox {
+    width: 100%;
+    background-color: #2c333e;
+    min-height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}

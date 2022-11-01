@@ -1,0 +1,104 @@
+.footer {
+    width: 100%;
+    background-color: #2c333e;
+    margin-top: 20px;
+}
+
+.footer-content {
+    color: rgb(80, 121, 209);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.footer-links {
+    flex-direction: column;
+    color: rgb(80, 121, 209);
+}
+
+.footer-links a {
+    color: rgb(80, 121, 209);
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-box {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .footer-box  {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .footer-content  {
+        width: 90%;
+    }
+}
+
+.fa-brands {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer-under-box {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-under-box h2 {
+    font-size: 17px;
+}
+
+.footer-under-box p {
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+.footer .fa-brands:hover {
+    color: rgb(80, 121, 209);
+}
+
+.border {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.border hr {
+    border: 1px solid #2e7eff;
+}
+
+@media only screen and (max-width: 1300px) {
+    .border  {
+        width: 95%;
+    }
+}
