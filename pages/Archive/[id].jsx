@@ -5,11 +5,11 @@ import Head from 'next/head';
 
 export const getStaticPaths = async () => {
     const res = await fetch('https://jsonplaceholder.typicode.com/users/');
-    const { data } = await res.json();
+    const data = await res.json();
 
     const paths = data.map(cards => {
         return {
-            params: {id: cards._id.toString()},
+            params: {id: cards.id.toString()},
         }
     })
 
@@ -22,7 +22,7 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
     const id = context.params.id;
     const res = await fetch('https://jsonplaceholder.typicode.com/users/' + id);
-    const { data } = await res.json();
+    const data = await res.json();
 
     return {
         props: { cards: data }
@@ -113,25 +113,19 @@ const MangaPage = ({ cards }) => {
 
                     <div className={styles.nodb}>
                         <Link href='#'>
-                        <a id={styles.problemHelp}>
                             <p><span className="material-symbols-outlined help">
                                 bug_report
                                 </span> Segnala un Problema</p>
-                        </a>
                         </Link>
                         <Link href='#'>
-                        <a>
                             <p><span className="material-symbols-outlined help">
                                 keyboard_arrow_left
                                 </span> Primo Capitolo</p>
-                        </a>
                         </Link>
                         <Link href='#'>
-                        <a>
                             <p>Ultimo Capitolo <span className="material-symbols-outlined help">
                                 keyboard_arrow_right
                                 </span></p>
-                        </a>
                         </Link>
                     </div>                 
                 </div>

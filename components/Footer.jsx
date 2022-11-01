@@ -12,8 +12,6 @@ const Footer = () => {
         <div class="footer-box">
             <h3>Link utili</h3>
             <div class="footer-links">
-                <a href="/terms">Termini e Condizioni</a><br />
-                <a href="/privacy">Informativa sulla Privacy</a>
             </div>
         </div>
         <div class="footer-under-box">

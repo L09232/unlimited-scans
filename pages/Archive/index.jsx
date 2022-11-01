@@ -6,7 +6,7 @@ import Image from "next/image";
 export const getStaticProps = async () => {
 
     const res = await fetch('https://jsonplaceholder.typicode.com/users');
-    const { data } = await res.json();
+    const data = await res.json();
 
     return {
         props: { cards: data.slice(0, 12), }
@@ -33,17 +33,13 @@ const Archive = ({cards}) => {
                 {cards.map(card => (
                     <div key={card.id} className='item'>
 
-                        <Link href={'/Archive/' + card._id}>
-                        <a>
+                        <Link href={'/Archive/' + card.id}>
                             <img src={card.logo} alt={card.name}/>
-                        </a>
                         </Link>
 
                         <div className="info">
-                            <Link href={'/Archive/' + card._id}>
-                            <a>
+                            <Link href={'/Archive/' + card.id}>
                                 <h3>{ card.name }</h3>
-                            </a>
                             </Link>
 
                             <p>Tipo: {card.type}</p>

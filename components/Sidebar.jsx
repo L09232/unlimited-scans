@@ -30,84 +30,7 @@ const Sidebar = ({cards}) => {
 
                     </div>
                 
-            </div>    
-            <div class={styles.nodb}>
-                <div class="name-container">
-                    <h2><span class="material-symbols-outlined">
-                        grade
-                        </span> TOP DEL MESE</h2>
-                    <hr />
-                </div>
-                <div class="content-side">
-                    <div class="item-side">
-                        <div class="number">
-                            <span class="material-symbols-outlined">
-                                looks_one
-                                </span>
-                        </div>
-                        <div class="namebox">
-                            <a href="/manhwa/Solo-Leveling-read/solo-leveling"><p>Solo Leveling</p><span class="material-symbols-outlined pointer">
-                                import_contacts
-                                </span>
-                            </a> 
-                        </div>
-                    </div>
-                    <div class="item-side">
-                        <div class="number">
-                            <span class="material-symbols-outlined">
-                                looks_two
-                                </span>
-                        </div>
-                        <div class="namebox">
-                            <a href="#"><p>Tensei shitara slime datta ken</p><span class="material-symbols-outlined pointer">
-                                import_contacts
-                                </span>
-                            </a>    
-                        </div>
-                    </div>
-                    <div class="item-side">
-                        <div class="number">
-                            <span class="material-symbols-outlined">
-                                looks_3
-                                </span>
-                        </div>
-                        <div class="namebox">
-                            <a href="#"><p>The Beggining After The End</p><span class="material-symbols-outlined pointer">
-                                import_contacts
-                                </span>
-                            </a> 
-                        </div>
-                    </div>
-                    <div class="item-side">
-                        <div class="number">
-                            <span class="material-symbols-outlined">
-                                looks_4
-                                </span>
-                        </div>
-                        <div class="namebox">
-                            <a href="#"><p>Player</p><span class="material-symbols-outlined pointer">
-                                import_contacts
-                                </span>
-                            </a> 
-                        </div>
-                    </div>
-                    <div class="item-side">
-                        <div class="number">
-                            <span class="material-symbols-outlined">
-                                looks_5
-                                </span>
-                        </div>
-                        <div class="namebox">
-                            <a href="/manhwa/Magic-Emperor-read/magic-emperor"><p>Magic Emperor</p><span class="material-symbols-outlined pointer">
-                                import_contacts
-                                </span>
-                            </a> 
-                        </div>
-                    </div>
-
-                </div>
-                
-            </div>    
+            </div>      
             <div class={styles.sidebar} id='ult'>
                 <div class="name-container">
                     <h2><span class="material-symbols-outlined">
@@ -118,13 +41,9 @@ const Sidebar = ({cards}) => {
 
                 <div class={styles.contentsidewrap}>
                     <div class={styles.itemwrap}>
-                        <a href="/Manhua/The-Beginning-After-The-End-read/tbate">
                         <img src="https://melsen203.github.io/Tets/Images/tbate1.jpg" />
-                        </a>
                         <div class={styles.nameitemwrap}>
-                            <a href="/Manhua/The-Beginning-After-The-End-read/tbate">
                             <h3>The Beginning After The End</h3>
-                            </a>
                             <div class={styles.descriptionwrap}>
                                 <p>Tipo: <span>Manhua</span></p>
                                 <p>Stato: <span>In Corso</span></p>
@@ -133,13 +52,9 @@ const Sidebar = ({cards}) => {
                         </div>
                     </div>
                         <div class={styles.itemwrap}>
-                            <a href="/manhwa/Magic-Emperor-read/magic-emperor">
                             <img src="https://melsen203.github.io/Tets/Images/magic-emperor.png" />
-                            </a>
                             <div class={styles.nameitemwrap}>
-                                <a href="/manhwa/Magic-Emperor-read/magic-emperor">
                                 <h3>Magic Emperor</h3>
-                                </a>
                                 <div class={styles.descriptionwrap}>
                                     <p>Tipo: <span>Manhua</span></p>
                                     <p>Stato: <span>In Corso</span></p>
